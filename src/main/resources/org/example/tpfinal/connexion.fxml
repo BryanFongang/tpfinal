@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.tpfinal.controller.ConnexionController" alignment="CENTER" spacing="20.0"
+      style="-fx-background-color: #f7fafc;" prefWidth="400.0" prefHeight="300.0">
+    <children>
+        <Label style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2c5282;" text="Connexion Participant" />
+
+        <VBox spacing="15.0" style="-fx-background-color: white; -fx-padding: 30; -fx-background-radius: 10;">
+            <children>
+                <VBox spacing="5.0">
+                    <children>
+                        <Label text="Nom :" />
+                        <TextField fx:id="nomField" promptText="Entrez votre nom" />
+                    </children>
+                </VBox>
+
+                <VBox spacing="5.0">
+                    <children>
+                        <Label text="Email :" />
+                        <TextField fx:id="emailField" promptText="Entrez votre email" />
+                    </children>
+                </VBox>
+
+                <HBox alignment="CENTER" spacing="15.0">
+                    <children>
+                        <Button fx:id="connecterButton" onAction="#handleConnecter" prefWidth="100.0"
+                                style="-fx-background-color: #2c5282; -fx-text-fill: white;" text="Se connecter" />
+                        <Button fx:id="annulerButton" onAction="#handleAnnuler" prefWidth="100.0"
+                                style="-fx-background-color: #e2e8f0; -fx-text-fill: #4a5568;" text="Annuler" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+    <padding>
+        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+    </padding>
+</VBox>

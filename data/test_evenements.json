@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Concert",
+    "id": "c1",
+    "nom": "Test",
+    "date": "2025-05-26T19:08:56",
+    "lieu": "Yaounde",
+    "capaciteMax": 100,
+    "participants": [
+    ],
+    "artiste": "bryan",
+    "genreMusical": "mbolé"
+  }
+]

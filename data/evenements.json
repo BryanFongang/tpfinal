@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Concert",
+    "id": "e2dee740-778e-4129-b2fd-d58c7127fc24",
+    "nom": "ff",
+    "date": "2025-04-30T20:33:00",
+    "lieu": "djj",
+    "capaciteMax": 33,
+    "participants": [
+    ],
+    "artiste": "jj",
+    "genreMusical": "ff"
+  },
+  {
+    "type": "Concert",
+    "id": "db4edbf1-60ec-4eef-9c34-1ecb1c9910df",
+    "nom": "vvv",
+    "date": "2025-05-01T23:36:00",
+    "lieu": "vv",
+    "capaciteMax": 55,
+    "participants": [
+    ],
+    "artiste": "llv",
+    "genreMusical": "vlkb"
+  }
+]
